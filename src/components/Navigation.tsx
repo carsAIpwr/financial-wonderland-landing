@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { BookOpen, Menu, X } from "lucide-react";
+import { Brain, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const Navigation = () => {
@@ -9,10 +9,10 @@ const Navigation = () => {
 
   const links = [
     { to: "/", label: "Home" },
-    { to: "/about", label: "About the Book" },
-    { to: "/authors", label: "Meet the Authors" },
+    { to: "/about", label: "The Methodology" },
+    { to: "/authors", label: "Authors" },
     { to: "/sample", label: "Read Sample" },
-    { to: "/collaboration", label: "The AI Story" },
+    { to: "/collaboration", label: "The Breakthrough" },
   ];
 
   return (
@@ -20,9 +20,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 group">
-            <BookOpen className="h-6 w-6 text-foreground transition-smooth group-hover:text-secondary" />
-            <span className="font-serif text-lg font-bold text-foreground">
-              The Grand Inquisitor of Intelligence
+            <Brain className="h-6 w-6 text-primary transition-smooth group-hover:text-secondary" />
+            <span className="font-serif text-lg font-bold text-foreground hidden lg:inline">
+              The Mirror of Consciousness
+            </span>
+            <span className="font-serif text-lg font-bold text-foreground lg:hidden">
+              Mirror of Consciousness
             </span>
           </Link>
 
@@ -42,7 +45,7 @@ const Navigation = () => {
               </Link>
             ))}
             <Button variant="default" className="bg-primary hover:bg-primary/90">
-              Get the Book
+              Download PDF
             </Button>
           </div>
 
@@ -77,7 +80,7 @@ const Navigation = () => {
               </Link>
             ))}
             <Button variant="default" className="w-full bg-primary hover:bg-primary/90">
-              Get the Book
+              Download PDF
             </Button>
           </div>
         )}

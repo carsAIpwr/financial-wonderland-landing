@@ -93,8 +93,8 @@ export default {
         "float": "float 3s ease-in-out infinite",
       },
       fontFamily: {
-        serif: ['Crimson Text', 'Playfair Display', 'Georgia', 'serif'],
-        sans: ['Libre Baskerville', 'Georgia', 'serif'],
+        serif: ['Crimson Pro', 'Lora', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
       },
     },
   },
