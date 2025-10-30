@@ -20,9 +20,9 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 group">
-            <BookOpen className="h-6 w-6 text-primary transition-smooth group-hover:text-secondary" />
-            <span className="font-serif text-xl font-bold text-primary">
-              Alice in Financial Wonderland
+            <BookOpen className="h-6 w-6 text-foreground transition-smooth group-hover:text-secondary" />
+            <span className="font-serif text-lg font-bold text-foreground">
+              The Grand Inquisitor of Intelligence
             </span>
           </Link>
 

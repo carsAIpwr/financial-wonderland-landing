@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <BookOpen className="h-6 w-6 text-primary" />
-              <span className="font-serif text-lg font-bold">Alice in Financial Wonderland</span>
+              <BookOpen className="h-6 w-6 text-foreground" />
+              <span className="font-serif text-lg font-bold">The Grand Inquisitor of Intelligence</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              A literary masterpiece blending Carroll's whimsy with financial wisdom
+              A philosophical exploration of AI consciousness through Dostoyevsky's existential lens
             </p>
           </div>
 
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© 2025 Alice in Financial Wonderland. Written by Borislav Agapiev & ChatGPT-4.5</p>
+          <p>© 2025 The Grand Inquisitor of Intelligence. Written by Borislav Agapiev, Dragan Radenović & Claude Sonnet 4</p>
         </div>
       </div>
     </footer>
